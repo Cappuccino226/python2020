@@ -1,7 +1,7 @@
 # Python小測驗_100題
 # 1.Python入門
 ```
-1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數: (A) print
+1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數: Ans:(A) print
 
 #!/usr/bin/python3
 ________("Hello, Python!")
