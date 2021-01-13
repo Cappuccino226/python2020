@@ -377,7 +377,7 @@ if ________:
   print("Hello Python!")
 else:
   print("Hello World!")
-若要讓程式印出Hello World!需在___中填入什麼？  Ans:
+若要讓程式印出Hello World!需在___中填入什麼？  Ans:[X] (A) a == b、a < b、a <= b
 
 (A) a == b、a < b、a <= b
 (B) a != b
@@ -389,7 +389,7 @@ else:
 a = 50
 b = 1000
 print("A") if a > b else print("B")
-以上程式碼輸出的結果是？  Ans:
+以上程式碼輸出的結果是？  Ans:(C) B
 
 (A) b
 (B) a
@@ -401,7 +401,7 @@ print("A") if a > b else print("B")
 a = 50
 b = 51
 print("A") if a > b else print("B") if a != b else print("!=")
-以上程式碼輸出的結果是？  Ans:
+以上程式碼輸出的結果是？  Ans:(C) B
 
 (A) A
 (B) !=
@@ -415,7 +415,7 @@ b = 10
 c = 0
 if a > b ___ c > a:
   print("True")
-若要讓程式印出Hello World!需在___中填入什麼？  Ans:
+若要讓程式印出Hello World!需在___中填入什麼？  Ans:(C) or
 
 (A) not in
 (B) not
@@ -429,7 +429,7 @@ b = a + 10
 
 if b > a:
   ______
-若要讓程式成功編譯執行應填入什麼？
+若要讓程式成功編譯執行應填入什麼？  Ans:[X] (C) return True
 
 (A) pass
 (B) return 0
@@ -444,7 +444,7 @@ if x >= 10:
     print("1")
   else:
     print("2")
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(C) 2
 
 (A) 10
 (B) 1
@@ -465,6 +465,8 @@ elif a == b:
     else:
       print("2")
       
+    Ans:(D) 沒有任何結果
+      
 (A) b > a
 (B) 2
 (C) 1
@@ -474,7 +476,7 @@ elif a == b:
 ```
 44.
 cat = ______
-創建一個cat的串列需填入什麼？
+創建一個cat的串列需填入什麼？  Ans:
 
 (A) [“Python”,”C”,”JAVA”,” Assembly”]
 (B) {'a': 1, 'b': 2, 'b': '3'}
@@ -485,7 +487,7 @@ cat = ______
 45.
 thisislist = [1,2,3,4,5]
 print(__________)
-輸出list中的第3個元素需填入什麼？
+輸出list中的第3個元素需填入什麼？  Ans:(D) thisislist[2]
 
 (A) thisislist(3)
 (B) thisislist(2)
@@ -496,7 +498,7 @@ print(__________)
 46.
 thisislist = [1,2,3,4,5]
 print(thisislist[-4])
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(B) 2
 
 (A) 1
 (B) 2
@@ -507,7 +509,7 @@ print(thisislist[-4])
 47.
 thisislist = [1,2,3,4,5]
 print(thisislist[_________])
-若要以上程式碼輸出的結果是2,3,4需要填入什麼？
+若要以上程式碼輸出的結果是2,3,4需要填入什麼？  Ans:(A) 1:4
 
 (A) 1:4
 (B) 1:3
@@ -518,7 +520,7 @@ print(thisislist[_________])
 48.
 thisislist = [1,2,3,4,5]
 print(thisislist[-5:-3:2])
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(A) 1
 
 (A) 1
 (B) 2
@@ -530,7 +532,7 @@ print(thisislist[-5:-3:2])
 thisislist = [1,2,3,4,5]
 ________ = 100
 print(thisislist)
-若需變更第四個元素為100需要填入什麼？
+若需變更第四個元素為100需要填入什麼？  Ans:(D) thisislist[3]
 
 (A) thisislist(4)
 (B) thisislist(3)
@@ -541,7 +543,7 @@ print(thisislist)
 50.
 thisislist = [1,2,3,4,5]
 __________
-若需在list後方加入一元素6要填入什麼？
+若需在list後方加入一元素6要填入什麼？  Ans:
 
 (A) thisislist.append(6)
 (B) thisislist.add(6)
@@ -552,7 +554,7 @@ __________
 ```
 51.
 thisisdict = ________
-建立一個字典變數需填入什麼？
+建立一個字典變數需填入什麼？  Ans:
 
 (A) [“Python”,”C”,”JAVA”,” Assembly”]
 (B) {'a': 1, 'b': 2, 'c': 3}
@@ -564,7 +566,7 @@ thisisdict = ________
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
 x = ___________
 print(x)
-要取出b的值需填入什麼？
+要取出b的值需填入什麼？  Ans:(C) thisisdict["b"]
 
 (A) thisisdict[b]
 (B) thisisdict["2"]
@@ -576,7 +578,7 @@ print(x)
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
 ______ = 100
 print(thisisdict)
-若需改變b的值需填入什麼？
+若需改變b的值需填入什麼？  Ans:(C) thisisdict["b"]
 
 (A) thisisdict[b]
 (B) thisisdict["2"]
@@ -588,7 +590,7 @@ print(thisisdict)
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
 if “3” in thisisdict:
    print(“Yes”)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(D) 沒有輸出結果
 
 (A) Yes
 (B) No
@@ -600,7 +602,7 @@ if “3” in thisisdict:
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
 if “a” in thisisdict:
    print(“Yes”)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(A) Yes
 
 (A) Yes
 (B) No
@@ -611,8 +613,8 @@ if “a” in thisisdict:
 ```
 56.
 thisisdict1 = dict(a="1", b="2", c=3)
-print(thisisdict1)
-以上程式碼輸出的結果是？
+print(thisisdict1)  
+以上程式碼輸出的結果是？  Ans:(B) {'a': '1', 'b': '2', 'c': 3}
 
 (A) 語法錯誤
 (B) {'a': '1', 'b': '2', 'c': 3}
@@ -624,7 +626,7 @@ print(thisisdict1)
 thisisdict1 = dict(a="1", b="2", c=3)
 thisisdict1.pop(“b”)
 print(thisisdict1)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(A) {'a': '1', 'c': 3}
 
 (A) {'a': '1', 'c': 3}
 (B) {'a': '1', 'b': '2', 'c': 3}
@@ -639,7 +641,7 @@ i = 20
 while i < 60:
   print(i)
   i -= -1
-以上程式碼最後輸出的結果是？
+以上程式碼最後輸出的結果是？  Ans:(A) 59
 
 (A) 59
 (B) 60
@@ -651,8 +653,8 @@ while i < 60:
 i = 20
 while i < 60:
   i -= -1
-print(i)
-以上程式碼輸出的結果是？
+print(i)  
+以上程式碼輸出的結果是？  Ans:(B) 60
 
 (A) 59
 (B) 60
@@ -664,7 +666,7 @@ print(i)
 i = 20
 while i == 20:
   print(“ok”)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 無窮迴圈，瘋狂輸出ok
 (B) 輸出一次ok
@@ -677,7 +679,7 @@ i = 20
 while i == 20:
   print(“ok”)
   _________
-執行以上程式碼只會輸出一次OK需填入什麼？
+執行以上程式碼只會輸出一次OK需填入什麼？  Ans:
 
 (A) end while
 (B) return 0
@@ -692,7 +694,7 @@ while i >= 1 :
   a += i
   i += -1
 print(a)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 5050，1加到100的總和
 (B) 100
@@ -707,7 +709,7 @@ while i < 15:
   if i >= 13:
     continue
   print(i)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 15
 (B) 13、14
@@ -720,7 +722,7 @@ i = 1
 _____ i < 3:
   print(i)
   i += 1
-執行以上程式碼輸出的結果是1和2需填入什麼？
+執行以上程式碼輸出的結果是1和2需填入什麼？  Ans:
 
 (A) True
 (B) while
@@ -732,7 +734,7 @@ _____ i < 3:
 65.
 ________ x ______ [0, 1, 2]_____
   print(x)
-以上程式碼使用for迴圈空格需依序填入什麼？
+以上程式碼使用for迴圈空格需依序填入什麼？  Ans:
 
 (A) for range :
 (B) for list :
@@ -743,7 +745,7 @@ ________ x ______ [0, 1, 2]_____
 66.
 for x in [0, 1, 2]:
   print(x)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 0
 (B) 0、1
@@ -756,7 +758,9 @@ for x in "Python for loop.":
   if _______:
     break
 print(x)
-
+  
+  Ans:
+  
 (A) x == “Python”
 (B) x == “ ”
 (C) “ ” not in x
@@ -768,7 +772,7 @@ for x in [0, 1, 2,3]:
   if x == 2:
     ________
   print(x)
-以上程式碼輸出的結果是0、1、3需填入下列何者？
+以上程式碼輸出的結果是0、1、3需填入下列何者？  Ans:(A) continue
 
 (A) continue
 (B) break
@@ -779,7 +783,7 @@ for x in [0, 1, 2,3]:
 69.
 for x in range(6):
   print(x)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(B) 輸出0~5
 
 (A) 輸出0~6
 (B) 輸出0~5
@@ -790,7 +794,7 @@ for x in range(6):
 70.
 for x in range(20, 15, _____):
   print(x)
-若要讓以上程式碼輸出的結果都差距2需填入什麼？
+若要讓以上程式碼輸出的結果都差距2需填入什麼？  Ans:(A) -2
 
 (A) -2
 (B) 2
@@ -802,7 +806,7 @@ for x in range(20, 15, _____):
 for x in [3,4,5]:
   ______
 print(“ok”)
-若要讓程式成功編譯執行應填入什麼？
+若要讓程式成功編譯執行應填入什麼？  Ans:(D) 無法做到
 
 (A) continue、pass、break
 (B) return 0
@@ -816,7 +820,7 @@ print(“ok”)
 72.
 _______________:
   print("Hello print_function")
-定義一個print_funtion需填入什麼？
+定義一個print_funtion需填入什麼？  Ans:(C) def print_funtion()
 
 (A) new print_funtion
 (B) print_funtion()
@@ -829,7 +833,7 @@ def print_funtion():
   print("Hello print_function")
 
 ____________
-若要呼叫print_funtion需填入什麼？
+若要呼叫print_funtion需填入什麼？  Ans:(C) print_funtion()
 
 (A) call print_funtion;
 (B) call print_funtion
@@ -842,7 +846,7 @@ def add(a,b):
   return a+b
 
 print(_______)
-若要計算50+100以上程式碼需填入什麼？
+若要計算50+100以上程式碼需填入什麼？  Ans:(A) add(50,100)
 
 (A) add(50,100)
 (B) add(50+100)
@@ -855,7 +859,7 @@ def print_name(yourname):
   print(yourname)
 
 print_name ("Steve Jobs")
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(D) Steve Jobs
 
 (A) 語法錯誤
 (B) print(yourname)
@@ -868,7 +872,7 @@ def hello(greeting='Hello', name='world'):
     print('{}, {}!'.format(greeting, name)) 
 
 hello_3()
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 沒有輸出
 (B) Hello, world!
@@ -881,7 +885,7 @@ def hello(greeting='Hello', name='world'):
     print('{}, {}!'.format(greeting, name)) 
 
 hello_3('great', 'universe')
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 沒有輸出
 (B) Hello, world!
@@ -894,7 +898,7 @@ def hello(greeting='Hello', name='world'):
     print('{}, {}!'.format(name, greeting)) 
 
 hello_3(name = 'great')
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:
 
 (A) 沒有輸出
 (B) Hello, world!
@@ -905,7 +909,7 @@ hello_3(name = 'great')
 ```
 79.
 x = ___________
-建立一個擁有參數與返回值y的Lambda函數需填入什麼？
+建立一個擁有參數與返回值y的Lambda函數需填入什麼？  Ans:
 
 (A) lambda y : y
 (B) lambda y 
@@ -915,7 +919,7 @@ x = ___________
 ```
 80.
 x = lambda y : ______
-建立一個擁有參數y與返回值自加100的Lambda函數需填入什麼？
+建立一個擁有參數y與返回值自加100的Lambda函數需填入什麼？  Ans:
 
 (A) y+100
 (B) x+100
@@ -926,7 +930,7 @@ x = lambda y : ______
 81.
 x = lambda y : y + 100
 print(x(10))
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(C) 110
 
 (A) 10
 (B) 100
@@ -937,7 +941,7 @@ print(x(10))
 82.
 x = lambda ___________
 print(x(3, 3))
-定義兩數相乘並有返回值的Lambda函數需填入什麼？
+定義兩數相乘並有返回值的Lambda函數需填入什麼？  Ans:(B) a, b : a * b
 
 (A) a * b : a, b
 (B) a, b : a * b
@@ -951,7 +955,7 @@ def func(x):
 
 a = func((1)_____)
 print(a(8))
-定義一個a函數使輸入的值能以7倍的值輸出需填入什麼？
+定義一個a函數使輸入的值能以7倍的值輸出需填入什麼？  Ans:
 
 (A) (1) 7  (2) a*x      (B) (1) a*x  (2) 7
 (C) (1) 7  (2) a*a      (D) a*a    (2) 7
@@ -963,7 +967,7 @@ def func(n):
 
 a = func(5)
 print(a(10))
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(B) 50
 
 (A) 100
 (B) 50
@@ -974,7 +978,7 @@ print(a(10))
 85.
 hard_func = lambda y, func: y + func(y)
 hard_func (5, lambda y: y * y)
-以上程式碼輸出的結果是？
+以上程式碼輸出的結果是？  Ans:(C) 30
 
 (A) 5
 (B) 25
@@ -986,14 +990,14 @@ hard_func (5, lambda y: y * y)
 ### 內建函數的小測驗:
 ```
 86.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) 5.0
 abs(3+4J)
 
 (A) 5.0   (B) 3.0   (C) 4.0   (D) 34.0
 ```
 ```
 87.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(B) 0b100101
 
 x = bin(37)
 print(x)
@@ -1002,7 +1006,7 @@ print(x)
 ```
 ```
 88.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) a
 
 x = chr(97)
 print(x)
@@ -1014,7 +1018,7 @@ print(x)
 ```
 ```
 89.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(D) 10
 
 x = int(‘0xA’,16)
 print(x)
@@ -1026,7 +1030,7 @@ print(x)
 ```
 ```
 90.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(C) 14
 
 x = ”ksu university”
 print(len(x))
@@ -1038,7 +1042,7 @@ print(len(x))
 ```
 ```
 91.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) 10
 x = [7,8,9,10]
 
 print(max(x))
@@ -1050,7 +1054,7 @@ print(max(x))
 ```
 ```
 92.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(D) 97
 x = ord(“a”)
 print(x)
 
@@ -1061,7 +1065,7 @@ print(x)
 ```
 ```
 93.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) 100
 a = 'print(100)'
 eval(a) 
 
@@ -1069,7 +1073,7 @@ eval(a)
 ```
 ```
 94.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(C) a
 
 a = float(3)
 print(a)
@@ -1077,8 +1081,8 @@ print(a)
 (A) 3    (B) 3.0    (C) a   (D) TypeError
 ```
 ```
-95.
-底下輸出結果為何?
+95.(D) 0x100
+底下輸出結果為何?  Ans:
 
 a = hex(256)
 print(a)
@@ -1089,8 +1093,8 @@ print(a)
 (D) 0x100
 ```
 ```
-96.
-底下輸出結果為何?
+96.(A) 8
+底下輸出結果為何?  Ans:
 
 a = pow(2,3)
 print(a)
@@ -1101,8 +1105,8 @@ print(a)
 (D) 2
 ```
 ```
-97.
-底下輸出結果為何?
+97.(C) 3
+底下輸出結果為何?  Ans:
 
 a = pow(2,3,5)
 print(a)
@@ -1113,8 +1117,8 @@ print(a)
 (D) 2
 ```
 ```
-98.
-底下輸出結果為何?
+98.(C) 3.14
+底下輸出結果為何?  Ans:
 a = round(3.1415926,2)
 print(a)
 
@@ -1125,7 +1129,7 @@ print(a)
 ```
 ```
 99.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) [1, 2, 3, 4, 5, 6, 7, 8, 9] 
 a = [5,6,8,3,2,1,7,4,9]
 a = sorted(a)
 print(a)
@@ -1137,7 +1141,7 @@ print(a)
 ```
 ```
 100.
-底下輸出結果為何?
+底下輸出結果為何?  Ans:(A) (2, 1) 
 a = divmod(5, 2)
 print(a)
 
